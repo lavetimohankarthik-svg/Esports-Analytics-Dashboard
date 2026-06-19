@@ -169,6 +169,7 @@ dashboard.exe
 
 #  Dashboard Menu
 
+![](images/Dashboard.jpeg)
 ```text
 =========================================
       ESPORTS ANALYTICS DASHBOARD
@@ -184,3 +185,37 @@ dashboard.exe
 ---
 
 # Outputs:
+
+### 👥 Team Analytics
+- **Metrics Displayed:** Total matches played per year, absolute wins, calculated Win Percentage (Win %), registered tournaments, and final standings.
+
+#### Output Preview:
+![Team Analytics](images/Team_analytics.jpeg)
+
+
+### 🌍 League Analytics
+- **Metrics Displayed:** Annual tournament density, aggregate match counts, league championship winners, individual tournament gold medalists, and unique team participation counts.
+
+#### Output Preview:
+![League Analytics](images/League_analytics.jpeg)
+
+
+### 🏆 Tournament Analytics
+- **Metrics Displayed:** Total matches played within a bracket, governing league relationship, tournament winner, and Top 5 overall team placements.
+
+#### Output Preview:
+![Tournament Analytics](images/Tournament_analytics.jpeg)
+
+
+### 👤 Player Analytics
+- **Metrics Displayed:** Active team alignment, Kill/Death (K/D) ratios, total professional matches played, and average performance ratings.
+
+#### Output Preview:
+![Player Analytics](images/Player_analytics.jpeg)
+
+---
+
+---
+
+
+---
