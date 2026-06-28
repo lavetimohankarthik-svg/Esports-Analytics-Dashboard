@@ -1,0 +1,37 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Dashboard",
+            "type": "shell",
+            "command": "g++",
+            "args": [ 
+                "main.cpp",  //tells g++ to compile main.cpp
+                "team_analytics.cpp",
+                "league_analytics.cpp",
+                "tournament_analytics.cpp",
+                "player_analytics.cpp",
+
+                "-I",
+                "C:\\Program Files\\MariaDB\\MariaDB Connector C 64-bit\\include", //This is required for mysql
+
+                "-L",
+                "C:\\Program Files\\MariaDB\\MariaDB Connector C 64-bit\\lib", //Tells g++ where library path(libmariadb.dll.a) is. 
+
+                "-lmariadb",  //links mariaDB libraries.
+                
+                "-o",
+                "dashboard.exe" //output file
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Run Dashboard",
+            "type": "shell",
+            "command": ".\\dashboard.exe"
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+
+# If you want to keep the folder but not its contents
+csv/*
+
+ # Ignore executable
+*.exe

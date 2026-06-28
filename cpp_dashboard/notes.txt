@@ -1,0 +1,5 @@
+
+(instead of tasks.json file we can use the below command in our terminal)
+g++ main.cpp team_analytics.cpp league_analytics.cpp tournament_analytics.cpp player_analytics.cpp -I"C:\Program Files\MariaDB\MariaDB Connector C 64-bit\include" -L"C:\Program Files\MariaDB\MariaDB Connector C 64-bit\lib" -lmariadb -o dashboard.exe
+
+.\dashboard.exe
